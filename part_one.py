@@ -1,4 +1,4 @@
-""" Vince's Vehicle:
+""" Vince's Vehicles:
 
 This system allows the user to rent different types of vehicles
 
