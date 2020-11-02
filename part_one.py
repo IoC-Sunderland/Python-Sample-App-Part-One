@@ -39,6 +39,7 @@ class Boat(Vehicle):
         super().__init__(colour, weight, brand)
         self.motor_type = motor_type
 
+
     def __str__(self):
 
         boat_description = f"{super().__str__()}\n" \
@@ -46,11 +47,14 @@ class Boat(Vehicle):
 
         return boat_description
 
+
     def __repr__(self):
          
         boat_repr = f"{super().__repr__()}\n" \
                      f"Motor Type: {self.motor_type}"
+        
         return boat_repr
+
 
 class Plane(Vehicle):
     pass
@@ -76,3 +80,4 @@ v1 = Vehicle('Red', 1000, 'Unknown')
 c1 = Car('Blue', 1113, 'Ford')
 b1 = Boat('White', 3000, "Billy's Boats", "Outboard")
 p1 = Plane('White', 5000, "Paula's Planes")
+
