@@ -7,6 +7,8 @@ Any classes/functions we don't know what we are doing with yet we just add ***pa
 
 All code is in one main file and initial object tests are done by intialising object variables, no user menu yet.
 
+We have added ***___str___*** and ***___repr___*** methods and implemented Inheritance.
+
 Instructions:
 
   1. Clone the repo
